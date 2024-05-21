@@ -1,0 +1,1270 @@
+[
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "GoogleChronicle",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "GoogleChronicle_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "UI Root",
+                    "propertyDescription": "UI root of the Chronicle instance. It will be used to create a link that points back to Chronicle across multiple actions.",
+                    "propertyDisplayName": "UI Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://ninegroup.backstory.chronicle.security",
+                    "integrationInstance": "6b42a434-9a0f-4ba1-a544-fcbc20bf0f9e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "API Root",
+                    "propertyDescription": "API root of the Chronicle instance.",
+                    "propertyDisplayName": "API Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://backstory.googleapis.com",
+                    "integrationInstance": "6b42a434-9a0f-4ba1-a544-fcbc20bf0f9e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "User's Service Account",
+                    "propertyDescription": "Service Account that is used for authentication. If not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+                    "propertyDisplayName": "User's Service Account",
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "value": "***************",
+                    "integrationInstance": "6b42a434-9a0f-4ba1-a544-fcbc20bf0f9e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Chronicle server is valid.",
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "True",
+                    "integrationInstance": "6b42a434-9a0f-4ba1-a544-fcbc20bf0f9e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "6b42a434-9a0f-4ba1-a544-fcbc20bf0f9e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "Okta",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "Okta",
+                    "propertyName": "Api Root",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Api Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://{okta_domain}.com/",
+                    "integrationInstance": "cc8ca855-4c5d-45a9-9cde-50c863967a45",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Okta",
+                    "propertyName": "Api Token",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Api Token",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "cc8ca855-4c5d-45a9-9cde-50c863967a45",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Okta",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "False",
+                    "integrationInstance": "cc8ca855-4c5d-45a9-9cde-50c863967a45",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Okta",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "cc8ca855-4c5d-45a9-9cde-50c863967a45",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "CrowdStrikeFalcon",
+        "settings": {
+            "instanceDescription": "Crowdstrike integration.",
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "CrowdStrikeFalcon",
+                    "propertyName": "API Root",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "API Root",
+                    "propertyType": 2,
+                    "isMandatory": false,
+                    "value": "https://api.us-2.crowdstrike.com",
+                    "integrationInstance": "d35c3f0a-5592-4628-8d7d-c225ab7c5664",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "CrowdStrikeFalcon",
+                    "propertyName": "Client API ID",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Client API ID",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "61ee9d10bcb84ff78dc24e6f877a4ce2",
+                    "integrationInstance": "d35c3f0a-5592-4628-8d7d-c225ab7c5664",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "CrowdStrikeFalcon",
+                    "propertyName": "Client API Secret",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Client API Secret",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "***************",
+                    "integrationInstance": "d35c3f0a-5592-4628-8d7d-c225ab7c5664",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "CrowdStrikeFalcon",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "True",
+                    "integrationInstance": "d35c3f0a-5592-4628-8d7d-c225ab7c5664",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "CrowdStrikeFalcon",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "d35c3f0a-5592-4628-8d7d-c225ab7c5664",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "VirusTotalV3",
+        "settings": {
+            "instanceDescription": "VirusTotal",
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "VirusTotalV3",
+                    "propertyName": "API Key",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "API Key",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "***************",
+                    "integrationInstance": "7095adaa-3ff9-4bb7-8ad5-49892bfc164d",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "VirusTotalV3",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "True",
+                    "integrationInstance": "7095adaa-3ff9-4bb7-8ad5-49892bfc164d",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "VirusTotalV3",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "7095adaa-3ff9-4bb7-8ad5-49892bfc164d",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "AzureActiveDirectory",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Client ID",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Client ID",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "5b194977-bf71-4de8-ae31-29fdebf7c15a",
+                    "integrationInstance": "a7b42cd0-18ed-42fa-baed-515634d4232b",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Client Secret",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Client Secret",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "***************",
+                    "integrationInstance": "a7b42cd0-18ed-42fa-baed-515634d4232b",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Directory ID",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Directory ID",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "1211f5b7-bd34-4621-8eef-3ebbcb827794",
+                    "integrationInstance": "a7b42cd0-18ed-42fa-baed-515634d4232b",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "True",
+                    "integrationInstance": "a7b42cd0-18ed-42fa-baed-515634d4232b",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "a7b42cd0-18ed-42fa-baed-515634d4232b",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "Netskope",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "Netskope",
+                    "propertyName": "Api Root",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Api Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://{IP}",
+                    "integrationInstance": "0582a3f8-88df-42d9-b2b9-f88739d18078",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Netskope",
+                    "propertyName": "Api Key",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Api Key",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "0582a3f8-88df-42d9-b2b9-f88739d18078",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Netskope",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "False",
+                    "integrationInstance": "0582a3f8-88df-42d9-b2b9-f88739d18078",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Netskope",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "0582a3f8-88df-42d9-b2b9-f88739d18078",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "ActiveDirectory",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "Server",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Server",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "x.x.x.x",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "Username",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Username",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "user@domain.com",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "Domain",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Domain",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "domain.com",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "Password",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Password",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "Custom Query Fields",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Custom Query Fields",
+                    "propertyType": 2,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "CA Certificate File - parsed into Base64 String",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "CA Certificate File - parsed into Base64 String",
+                    "propertyType": 2,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "Use SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Use SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "False",
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "ActiveDirectory",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "8c1ec1e7-e07c-42b1-945f-48cd7803281c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "SiemplifyThreatFuse",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "SiemplifyThreatFuse",
+                    "propertyName": "Web Root",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Web Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://siemplify.threatstream.com",
+                    "integrationInstance": "9940fd4c-d8fc-4db8-851a-854f0d73ca8a",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "SiemplifyThreatFuse",
+                    "propertyName": "API Root",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "API Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://api.threatstream.com",
+                    "integrationInstance": "9940fd4c-d8fc-4db8-851a-854f0d73ca8a",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "SiemplifyThreatFuse",
+                    "propertyName": "Email Address",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Email Address",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "9940fd4c-d8fc-4db8-851a-854f0d73ca8a",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "SiemplifyThreatFuse",
+                    "propertyName": "API Key",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "API Key",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "9940fd4c-d8fc-4db8-851a-854f0d73ca8a",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "SiemplifyThreatFuse",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "9940fd4c-d8fc-4db8-851a-854f0d73ca8a",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "SiemplifyThreatFuse",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "9940fd4c-d8fc-4db8-851a-854f0d73ca8a",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "EmailV2",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "System Default Instance",
+            "settings": [
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "Sender's address",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Sender's Address",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "user@mail.com",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "Sender's Display Name",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Sender's Display Name",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "SMTP Server Address",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "SMTP Server Address",
+                    "propertyType": 5,
+                    "isMandatory": false,
+                    "value": "Not yet configured",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "SMTP Port",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "SMTP Port",
+                    "propertyType": 2,
+                    "isMandatory": false,
+                    "value": "Not yet configured",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "IMAP Server Address",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "IMAP Server Address",
+                    "propertyType": 5,
+                    "isMandatory": false,
+                    "value": "Not yet configured",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "IMAP Port",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "IMAP Port",
+                    "propertyType": 2,
+                    "isMandatory": false,
+                    "value": "Not yet configured",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "Username",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Username",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "user@mail.com",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "Password",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Password",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "SMTP USE SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "SMTP - Use SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "IMAP USE SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "IMAP - Use SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "SMTP Use Authentication",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "SMTP - Use Authentication",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "EmailV2",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "e172139f-5f3f-4d6f-9fd3-171ffee22041",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "GoogleChronicle",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "GoogleChronicle_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "UI Root",
+                    "propertyDescription": "UI root of the Chronicle instance. It will be used to create a link that points back to Chronicle across multiple actions.",
+                    "propertyDisplayName": "UI Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://{instance}.chronicle.security",
+                    "integrationInstance": "6a0ab2fa-8bd8-4c4b-81ee-d03d7ea9d973",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "API Root",
+                    "propertyDescription": "API root of the Chronicle instance.",
+                    "propertyDisplayName": "API Root",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "https://backstory.googleapis.com",
+                    "integrationInstance": "6a0ab2fa-8bd8-4c4b-81ee-d03d7ea9d973",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "User's Service Account",
+                    "propertyDescription": "Service Account that is used for authentication. If not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+                    "propertyDisplayName": "User's Service Account",
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "6a0ab2fa-8bd8-4c4b-81ee-d03d7ea9d973",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Chronicle server is valid.",
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "true",
+                    "integrationInstance": "6a0ab2fa-8bd8-4c4b-81ee-d03d7ea9d973",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "GoogleChronicle",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "6a0ab2fa-8bd8-4c4b-81ee-d03d7ea9d973",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "Enrichment",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "Enrichment_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "Enrichment",
+                    "propertyName": "API Key",
+                    "propertyDescription": "SOAR API Key - Required to Enrich Entities from Explorer",
+                    "propertyDisplayName": "API Key",
+                    "propertyType": 3,
+                    "isMandatory": false,
+                    "value": "",
+                    "integrationInstance": "de7387f5-beac-4cc7-a7d7-3b417c57052e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Enrichment",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": "Verify SSL Certificates when executing requests to Chronicle SOAR instance.",
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "false",
+                    "integrationInstance": "de7387f5-beac-4cc7-a7d7-3b417c57052e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "Enrichment",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "de7387f5-beac-4cc7-a7d7-3b417c57052e",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "Lists",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "Lists_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "Lists",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "c016d43d-e947-4272-bcb6-ce510c264b8c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "VirusTotalV3",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "VirusTotalV3_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "VirusTotalV3",
+                    "propertyName": "API Key",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "API Key",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "34ffbc39-adae-4c6c-b99b-e99f98c99675",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "VirusTotalV3",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "true",
+                    "integrationInstance": "34ffbc39-adae-4c6c-b99b-e99f98c99675",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "VirusTotalV3",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "34ffbc39-adae-4c6c-b99b-e99f98c99675",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "EmailUtilities",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "EmailUtilities_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "EmailUtilities",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "89f81bbf-eebf-41e5-8ec8-99e1ce45d061",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "Functions",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "Functions_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "Functions",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "45bce28a-f003-45aa-81ae-39dd765027a3",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "FileUtilities",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "FileUtilities_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "FileUtilities",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": "Verify SSL Certificates when executing requests to Chronicle SOAR instance.",
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "false",
+                    "integrationInstance": "c575d2b4-9e41-4edf-b07c-5780170cc13d",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "FileUtilities",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "c575d2b4-9e41-4edf-b07c-5780170cc13d",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "AzureActiveDirectory",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "AzureActiveDirectory_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Client ID",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Client ID",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "c222c7b9-20f1-48ea-9c57-b2e612f23ea8",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Client Secret",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Client Secret",
+                    "propertyType": 3,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "c222c7b9-20f1-48ea-9c57-b2e612f23ea8",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Directory ID",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Directory ID",
+                    "propertyType": 2,
+                    "isMandatory": true,
+                    "value": "",
+                    "integrationInstance": "c222c7b9-20f1-48ea-9c57-b2e612f23ea8",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "True",
+                    "integrationInstance": "c222c7b9-20f1-48ea-9c57-b2e612f23ea8",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "AzureActiveDirectory",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "c222c7b9-20f1-48ea-9c57-b2e612f23ea8",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "MitreAttck",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "MitreAttck_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "MitreAttck",
+                    "propertyName": "API Root",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "API Root",
+                    "propertyType": 5,
+                    "isMandatory": true,
+                    "value": "https://raw.githubusercontent.com/mitre/cti/master/enterprise-attack/enterprise-attack.json",
+                    "integrationInstance": "823cfe85-cfdb-41a9-9b95-6a06737d110c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "MitreAttck",
+                    "propertyName": "Verify SSL",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyType": 0,
+                    "isMandatory": false,
+                    "value": "True",
+                    "integrationInstance": "823cfe85-cfdb-41a9-9b95-6a06737d110c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                },
+                {
+                    "integrationIdentifier": "MitreAttck",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "823cfe85-cfdb-41a9-9b95-6a06737d110c",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    },
+    {
+        "environment": "*",
+        "integrationIdentifier": "Tools",
+        "settings": {
+            "instanceDescription": null,
+            "instanceName": "Tools_1",
+            "settings": [
+                {
+                    "integrationIdentifier": "Tools",
+                    "propertyName": "AgentIdentifier",
+                    "propertyDescription": null,
+                    "propertyDisplayName": "Agent",
+                    "propertyType": 9,
+                    "isMandatory": false,
+                    "value": null,
+                    "integrationInstance": "f12dc733-a4f8-4e0f-a791-745092a2aad9",
+                    "environment": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0
+                }
+            ]
+        }
+    }
+]

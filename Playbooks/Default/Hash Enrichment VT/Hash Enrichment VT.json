@@ -1,0 +1,402 @@
+{
+    "hasRestrictedEnvironments": false,
+    "id": 0,
+    "identifier": "26a28e40-cdaf-4eb3-8393-7c5c1c727c8c",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": true,
+    "name": "Hash Enrichment VT",
+    "creator": "b5e9c998-d90d-4c4e-96f6-397ec1953e0e",
+    "modifiedBy": "dae7db95-1fb8-47ed-bcf9-cd767fecd7ed",
+    "priority": 2,
+    "description": "An embedded workflow that can receive inputs and return an output.",
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "26a28e40-cdaf-4eb3-8393-7c5c1c727c8c",
+    "creationTimeUnixTimeInMs": 1711430570553,
+    "modificationTimeUnixTimeInMs": 1711498693957,
+    "trigger": {
+        "id": 0,
+        "identifier": "d6898596-5d47-441f-9462-a3220bdc1330",
+        "type": 11,
+        "logicalOperator": 0,
+        "conditions": []
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "48347004-ac56-4805-8650-7b271a6aa530",
+            "originalStepIdentifier": "48347004-ac56-4805-8650-7b271a6aa530",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Output_2",
+            "name": "Output",
+            "integration": "Flow",
+            "description": "",
+            "actionProvider": "Flow",
+            "actionName": "OutputAction",
+            "type": 6,
+            "parameters": [
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": "0",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "26a28e40-cdaf-4eb3-8393-7c5c1c727c8c",
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1711498576560,
+            "modificationTimeUnixTimeInMs": 1711498576662,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "5045e136-e363-44e1-a2e6-59908f743d25",
+            "originalStepIdentifier": "5045e136-e363-44e1-a2e6-59908f743d25",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Condition_1",
+            "name": "Condition",
+            "integration": "Flow",
+            "description": "This condition determines the progress of the playbook. Conditions are built based on cases data (cases, alerts, vents, entities and environment properties) as-well as data that comes back from previous playbook steps.",
+            "actionProvider": "Flow",
+            "actionName": "IfFlowCondition",
+            "type": 4,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "Branches",
+                    "value": "[{\"LogicalOperator\":0,\"Conditions\":[{\"Operator\":0,\"FieldName\":\"[VirusTotalV3_Enrich Hash_1.JsonResult| \\\"is_risky\\\"]\",\"Type\":2,\"Value\":\"true\"}],\"Order\":1,\"IsDefaultBranch\":false,\"Name\":\"Branch\"},{\"LogicalOperator\":0,\"Conditions\":[],\"Order\":2,\"IsDefaultBranch\":true,\"Name\":\"Branch\"}]",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ErrorFallbackBranch",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "All entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "26a28e40-cdaf-4eb3-8393-7c5c1c727c8c",
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1711498576560,
+            "modificationTimeUnixTimeInMs": 1711498576662,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "8366f82e-b54a-4167-bf03-bbb3b0ba0832",
+            "originalStepIdentifier": "8366f82e-b54a-4167-bf03-bbb3b0ba0832",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "VirusTotalV3_Enrich Hash_1",
+            "name": "VirusTotalV3_Enrich Hash",
+            "integration": "VirusTotalV3",
+            "description": "Enrich Hash using information from VirusTotal. Supported entities: Filehash. Note: only MD5, SHA-1 and SHA-256 are supported.",
+            "actionProvider": "Scripts",
+            "actionName": "VirusTotalV3_Enrich Hash",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "AsyncActionTimeout",
+                    "value": "86400",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "AsyncPollingInterval",
+                    "value": "3600",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": "34ffbc39-adae-4c6c-b99b-e99f98c99675",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "IntegrationInstance",
+                    "value": "AutomaticEnvironment",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "VirusTotalV3_Enrich Hash",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{\"Engine Threshold\":\"1\",\"Engine Percentage Threshold\":\"\",\"Engine Whitelist\":\"\",\"Resubmit Hash\":false,\"Resubmit After (Days)\":\"30\",\"Retrieve Comments\":true,\"Retrieve Sigma Analysis\":true,\"Sandbox\":\"VirusTotal Jujubox\",\"Retrieve Sandbox Analysis\":true,\"Create Insight\":true,\"Only Suspicious Entity Insight\":false,\"Max Comments To Return\":\"10\",\"Widget Theme\":\"Dark\",\"Fetch Widget\":true,\"Fetch MITRE Details\":false,\"Lowest MITRE Technique Severity\":\"Low\"}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "All entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "26a28e40-cdaf-4eb3-8393-7c5c1c727c8c",
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1711498576560,
+            "modificationTimeUnixTimeInMs": 1711498576662,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "e2907826-323b-4c18-9fb4-020192c04b77",
+            "originalStepIdentifier": "e2907826-323b-4c18-9fb4-020192c04b77",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Output_1",
+            "name": "Output",
+            "integration": "Flow",
+            "description": "",
+            "actionProvider": "Flow",
+            "actionName": "OutputAction",
+            "type": 6,
+            "parameters": [
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": "1",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "26a28e40-cdaf-4eb3-8393-7c5c1c727c8c",
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1711498576560,
+            "modificationTimeUnixTimeInMs": 1711498576662,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [
+        {
+            "condition": "2",
+            "fromStep": "5045e136-e363-44e1-a2e6-59908f743d25",
+            "toStep": "48347004-ac56-4805-8650-7b271a6aa530",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "",
+            "fromStep": "8366f82e-b54a-4167-bf03-bbb3b0ba0832",
+            "toStep": "5045e136-e363-44e1-a2e6-59908f743d25",
+            "destinationActionStatus": 0
+        },
+        {
+            "condition": "1",
+            "fromStep": "5045e136-e363-44e1-a2e6-59908f743d25",
+            "toStep": "e2907826-323b-4c18-9fb4-020192c04b77",
+            "destinationActionStatus": 0
+        }
+    ],
+    "templateName": null,
+    "playbookType": 1,
+    "debugData": {
+        "debugBaseAlertId": "EXECUTION VIA SCRIPTING DETECTED_52EB9688-C7CD-4F72-B5C6-497DF91C5496",
+        "debugAlertId": "EXECUTION VIA SCRIPTING DETECTEDFFCCF0CC-876D-4056-A381-5061E8A0E878"
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": []
+}

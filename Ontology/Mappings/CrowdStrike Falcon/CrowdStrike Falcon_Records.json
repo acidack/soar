@@ -1,0 +1,13 @@
+[
+    {
+        "id": 0,
+        "source": "CrowdStrike Falcon",
+        "product": "CrowdStrike -  Simulation - ExecutableDetected",
+        "eventName": "ExecutableDetected",
+        "familyName": "Default",
+        "familyId": 0,
+        "mappingStatus": null,
+        "changeSource": 0,
+        "exampleEventFields": []
+    }
+]

@@ -1,0 +1,84 @@
+{
+    "cases": [
+        {
+            "creatorUserId": null,
+            "events": [
+                {
+                    "_fields": {
+                        "baseEventIds": [],
+                        "parentEventId": 0,
+                        "deviceEventClassId": "ExecutableDetected",
+                        "startTime": "1711501432555",
+                        "endTime": "1711501432555",
+                        "deviceProduct": "CrowdStrike -  Simulation - ExecutableDetected"
+                    },
+                    "_rawDataFields": {
+                        "hostname": "CROWDSTRIKE-H01",
+                        "filepath": "\\Device\\HarddiskVolume2\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                        "local_ip": "172.30.202.33",
+                        "ioc_description": "\\Device\\HarddiskVolume2\\Windows\\System32\\",
+                        "mac_address": "00-50-56-A2-5D-A3",
+                        "ioc_value": "604cdf637c64c8862b506caa60d1a66b02f97127dc265c6943cadd126fc32f14",
+                        "external_ip": "185.180.102.139",
+                        "filename": "reg.exe",
+                        "device_id": "77aefb45-67b0-11eb-a01a-069e2f89a433",
+                        "deviceProduct": "CrowdStrike -  Simulation - ExecutableDetected",
+                        "name": "ExecutableDetected",
+                        "first_seen": "2021-01-12T16:01:43Z",
+                        "last_seen": "2021-01-12T16:17:21Z",
+                        "os_version": "Windows 10",
+                        "product_type_desc": "Workstation",
+                        "timestamp": "2021-01-12T16:17:19Z",
+                        "alleged_filetype": "exe",
+                        "ioc_type": "hash_sha256",
+                        "user_name": "Admin",
+                        "user_id": "77aefc04-67b0-11eb-a01a-069e2f89a433",
+                        "sha256": "604cdf637c64c8862b506caa60d1a66b02f97127dc265c6943cadd126fc32f14",
+                        "md5": "05cf3ce225b05b669e3118092f4c8eab",
+                        "parent_sha256": "d0ceb18272966ab62b8edff100e9b4a6a3cb5dc0f2a32b2b18721fea2d9c09a5",
+                        "parent_md5": "9d59442313565c2e0860b88bf32b2277",
+                        "parent_cmdline": "C:\\\\Windows\\\\system32\\\\cmd.exe /c \\\"\\\"C:\\\\Users\\\\Admin\\\\Desktop\\\\APTSimulator-master\\\\APTSimulator-master\\\\APTSimulator.bat\\\" \\\"",
+                        "max_confidence": "80",
+                        "max_severity": "70",
+                        "deviceEventClassId": "ExecutableDetected"
+                    },
+                    "environment": null,
+                    "sourceSystemName": null,
+                    "extensions": []
+                }
+            ],
+            "environment": null,
+            "sourceSystemName": "CrowdStrike Falcon",
+            "ticketId": null,
+            "description": null,
+            "displayId": null,
+            "reason": null,
+            "name": "Execution via Scripting Detected",
+            "deviceVendor": "CrowdStrike -  Simulation - ExecutableDetected",
+            "deviceProduct": "CrowdStrike -  Simulation - ExecutableDetected",
+            "startTime": 1711501432555,
+            "endTime": 1711501432555,
+            "type": 0,
+            "priority": -1,
+            "ruleGenerator": "ExecutableDetected",
+            "sourceGroupingIdentifier": null,
+            "playbookTriggerKeywords": [],
+            "extensions": [
+                {
+                    "key": "Description",
+                    "value": "A script launched that appears to be related to a reverse shell established with a remote system. Review the script and investigate the process tree."
+                }
+            ],
+            "attachments": null,
+            "isTrimmed": false,
+            "dataType": 1,
+            "sourceType": 1,
+            "sourceSystemUrl": null,
+            "sourceRuleIdentifier": null,
+            "siemAlertId": null
+        }
+    ],
+    "type": 0,
+    "connectorIdentifier": null,
+    "debugOutput": null
+}

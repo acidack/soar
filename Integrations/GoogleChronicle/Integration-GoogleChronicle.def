@@ -1,0 +1,188 @@
+{
+    "IsAvailableForCommunity": false,
+    "Identifier": "GoogleChronicle",
+    "ShouldInstalledInSystem": false,
+    "Version": 32.0,
+    "DisplayName": "Google Chronicle",
+    "Description": "Chronicle enables you to examine the aggregated security information for your enterprise going back for months or longer. Use Chronicle to search across all of the domains accessed from within your enterprise. To enable the Google API client to communicate with the Backstory API you will need Google Developer Service Account Credential, https://developers.google.com/identity/protocols/OAuth2#serviceaccount.",
+    "ImageBase64": "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",
+    "SvgImage": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 24.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 25 25\" style=\"enable-background:new 0 0 25 25;\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path d=\"M12.4,23l8.3-5.2v-4.6L8.4,20.6L12.4,23z M8.4,20.6V8.9L4,6.3v11.5L8.4,20.6z M4,2v4.3h17V2H4z\"/>\n\t</g>\n</g>\n</svg>\n",
+    "IsCustom": false,
+    "PythonVersion": 2,
+    "IntegrationProperties": [
+        {
+            "IntegrationIdentifier": "GoogleChronicle",
+            "PropertyName": "UI Root",
+            "PropertyDescription": "UI root of the Chronicle instance. It will be used to create a link that points back to Chronicle across multiple actions.",
+            "PropertyDisplayName": "UI Root",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": "https://{instance}.chronicle.security",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1713684409022,
+            "ModificationTimeUnixTimeInMs": 1713684409022
+        },
+        {
+            "IntegrationIdentifier": "GoogleChronicle",
+            "PropertyName": "API Root",
+            "PropertyDescription": "API root of the Chronicle instance.",
+            "PropertyDisplayName": "API Root",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": "https://backstory.googleapis.com",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1713684409022,
+            "ModificationTimeUnixTimeInMs": 1713684409022
+        },
+        {
+            "IntegrationIdentifier": "GoogleChronicle",
+            "PropertyName": "User's Service Account",
+            "PropertyDescription": "Service Account that is used for authentication. If not provided, the default Service Account of the SecOps Instance will be used to authenticate.",
+            "PropertyDisplayName": "User's Service Account",
+            "PropertyType": 3,
+            "IsMandatory": false,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1713684409022,
+            "ModificationTimeUnixTimeInMs": 1713684409022
+        },
+        {
+            "IntegrationIdentifier": "GoogleChronicle",
+            "PropertyName": "Verify SSL",
+            "PropertyDescription": "If enabled, verify the SSL certificate for the connection to the Google Chronicle server is valid.",
+            "PropertyDisplayName": "Verify SSL",
+            "PropertyType": 0,
+            "IsMandatory": false,
+            "Value": "true",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1713684409022,
+            "ModificationTimeUnixTimeInMs": 1713684409022
+        }
+    ],
+    "IntegrationSupportedActions": [
+        {
+            "Name": "Ping",
+            "Description": "Test connectivity to the Google Chronicle with parameters provided at the integration configuration page on the Marketplace tab.",
+            "Id": 314,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1713684409052
+        },
+        {
+            "Name": "Get Rule Details",
+            "Description": "Fetch information about a rule in Google Chronicle.",
+            "Id": 307,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Get Detection Details",
+            "Description": "Fetch information about a detection in Google Chronicle.",
+            "Id": 308,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Add Values To Reference List",
+            "Description": "Add values to a reference list in Google Chronicle.",
+            "Id": 309,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Execute UDM Query",
+            "Description": "Execute custom UDM query in Google Chronicle. Note: 120 action executions are allowed per hour.",
+            "Id": 313,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Remove Values From Reference List",
+            "Description": "Remove values from a reference list in Google Chronicle.",
+            "Id": 315,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Enrich Domain",
+            "Description": "Enrich domains using information from IOCs in Google Chronicle. Supported entities: Hostname, URL (action extracts domain part).",
+            "Id": 316,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Enrich IP",
+            "Description": "Enrich IP entities using information from IOCs in Google Chronicle. Supported entities: IP address.",
+            "Id": 320,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Is Value In Reference List",
+            "Description": "Check, if provided values are found in reference lists in Google Chronicle.",
+            "Id": 312,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Get Reference Lists",
+            "Description": "Get available reference lists in Google Chronicle.",
+            "Id": 310,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Execute Retrohunt",
+            "Description": "Execute a rule retrohunt in Google Chronicle.",
+            "Id": 311,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "List Events",
+            "Description": "List events on the particular asset in the specified time frame. Supported entities: IP Address, Mac Address, Hostname. Note: action can only fetch 10000 events. Make sure to narrow down the timeframe for better results.",
+            "Id": 317,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "List IOCs",
+            "Description": "List all of the IoCs discovered within your enterprise within the specified time range.",
+            "Id": 319,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "Lookup Similar Alerts",
+            "Description": "Lookup similar alerts in Google Chronicle. Supported Chronicle alert types: RULE, EXTERNAL, IOC. Note: this action can only work with alerts that come from the \"Chronicle Alerts Connector\". Note: action can only fetch 10000 alerts. Make sure to narrow down the timeframe for better results.",
+            "Id": 321,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        },
+        {
+            "Name": "List Assets",
+            "Description": "List assets in Google Chronicle based on the related entities in the specified time frame. Supported entities: URL, IP Address, File hash. Only MD5, SHA-1 or SHA-256 hashes are supported.",
+            "Id": 318,
+            "CreationTimeUnixTimeInMs": 1713684409052,
+            "ModificationTimeUnixTimeInMs": 1716135220921
+        }
+    ],
+    "Categories": [
+        "SIEM",
+        "Cloud",
+        "Security",
+        "Google"
+    ],
+    "HasConnectors": false,
+    "DocumentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/google-chronicle",
+    "IsCertified": false,
+    "UploaderFullName": null,
+    "PublishComment": null,
+    "UploaderEmail": null,
+    "UploaderImageBase64": null,
+    "UploaderProfileLink": null,
+    "MinimumSystemVersion": 0.0,
+    "ProductionIntegrationIdentifier": null,
+    "Id": 0,
+    "CreationTimeUnixTimeInMs": 1713684409022,
+    "ModificationTimeUnixTimeInMs": 1713684409022
+}

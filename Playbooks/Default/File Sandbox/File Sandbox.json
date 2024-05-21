@@ -1,0 +1,90 @@
+{
+    "hasRestrictedEnvironments": false,
+    "id": 0,
+    "identifier": "c5222f83-9273-4a6c-9d04-448e741ae364",
+    "version": "1",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "File Sandbox",
+    "creator": "dae7db95-1fb8-47ed-bcf9-cd767fecd7ed",
+    "modifiedBy": "dae7db95-1fb8-47ed-bcf9-cd767fecd7ed",
+    "priority": 2,
+    "description": "An embedded workflow that can receive inputs and return an output.",
+    "environments": [
+        "*"
+    ],
+    "categoryName": "Default",
+    "categoryId": 1,
+    "originalPlaybookIdentifier": "c5222f83-9273-4a6c-9d04-448e741ae364",
+    "creationTimeUnixTimeInMs": 1711450476148,
+    "modificationTimeUnixTimeInMs": 1711450476148,
+    "trigger": {
+        "id": 0,
+        "identifier": "a712e097-f6be-4a0c-a669-44d65d8a4f98",
+        "type": 11,
+        "logicalOperator": 0,
+        "conditions": [
+            {
+                "fieldName": "file_path",
+                "value": "",
+                "matchType": 0
+            }
+        ]
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "66480d60-f930-4344-8f88-dc7b1612218f",
+            "originalStepIdentifier": "66480d60-f930-4344-8f88-dc7b1612218f",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Output_1",
+            "name": "Output",
+            "integration": "Flow",
+            "description": "",
+            "actionProvider": "Flow",
+            "actionName": "OutputAction",
+            "type": 6,
+            "parameters": [
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "c5222f83-9273-4a6c-9d04-448e741ae364",
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1711450476148,
+            "modificationTimeUnixTimeInMs": 1711450476148,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [
+        {
+            "condition": "",
+            "fromStep": "b62714f4-5147-45c4-a95d-31da89bbbd0e",
+            "toStep": "66480d60-f930-4344-8f88-dc7b1612218f",
+            "destinationActionStatus": 0
+        }
+    ],
+    "templateName": null,
+    "playbookType": 1,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": []
+}
